@@ -4,3 +4,12 @@ console.log(arr.lastIndexOf(1))
 console.log(arr.findIndex(function(el){
     return el > 2
 }))
+console.log(arr.find(function(el){
+    return el > 2
+}))
+console.log(arr.filter(function(el){
+    return el > 2
+}))
+console.log(arr.map(function(el){
+    return el * 2
+}))
