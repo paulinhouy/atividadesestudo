@@ -10,6 +10,4 @@ console.log(arr.find(function(el){
 console.log(arr.filter(function(el){
     return el > 2
 }))
-console.log(arr.map(function(el){
-    return el * 2
-}))
+
